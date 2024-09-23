@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    background-color: white;
+    color: #333;
+    line-height: 1.6;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffbb6e;
+    padding: 1rem 2rem;
+}
+
+nav .logo {
+    margin-left: 6.5%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #000000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-left: 30%;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #777;
+    font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* texto informativo */
+.info-text {
+    background-color: white;
+    padding: 40px 20px;
+    text-align: justify;
+}
+
+.info-text p {
+    max-width: 800px;
+    margin: 10px auto;
+    color: #555;
+    font-size: 18px;
+}
+
+/* container principal */
+.container {
+    max-width: 1200px; /* largura aumentada */
+    margin: 20px auto;
+    background-color: #fff; /* cor de fundo do container */
+    padding: 20px;
+    border-radius: 0; /* remover bordas arredondadas */
+    box-shadow: none; /* remover sombra */
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    color: #2c3e50;
+}
+
+/* conteúdo */
+.content p {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+/* linha*/
+.divider {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+/* botões de ação */
+.action-buttons {
+    text-align: center;
+    margin-top: 20px; /* margem superior */
+}
+
+.action-buttons h2 {
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.action-buttons p {
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #9b3c00;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #1a242f;
+}

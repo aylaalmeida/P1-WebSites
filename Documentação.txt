@@ -1,0 +1,1 @@
+O obejtivo do site é oferecer informações sobre as queimadas de forma clara e breve, com funções intuitivas, possuindo 5 páginas. Para algumas imagens, usei bancos de imagens como o Freepik, apesar de ter sido difiícil achar boas imagens gratuitas e que não foram criadas por IA. Tive dificuldades com o CSS, especialmente para montar o infográfico.

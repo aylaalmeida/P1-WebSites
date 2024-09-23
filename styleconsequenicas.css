@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.6;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* nav bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffbb6e;
+    padding: 1rem 2rem;
+}
+
+nav .logo {
+    margin-left: 6.5%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #000000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-left: 30%;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #777;
+    font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* texto informativo */
+.info-text {
+    background-color: #ffbb;
+    padding: 40px 20px;
+    text-align: justify;
+}
+
+.info-text p {
+    max-width: 800px;
+    margin: 10px auto;
+    color: #555;
+    font-size: 18px;
+}
+
+/* infográfico */
+.infographic {
+    padding: 20px;
+    margin: 20px;
+    background-color: #ffbb6e;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.infographic h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.infographic-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.infographic-item {
+    width: 45%; /* largura dos itens do infográfico */
+    margin: 10px;
+    padding: 15px;
+    background-color: #ffbb;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.infographic-item h3 {
+    color: rgba(0, 0, 0, 0.733);
+}
+
+.infographic-item p {
+    font-size: 16px;
+}
+
+/* responsividade */
+@media (max-width: 768px) {
+    .infographic-item {
+        width: 100%; /* faz os itens ocuparem a largura total em telas menores */
+    }
+}
