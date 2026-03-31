@@ -22,7 +22,3 @@ O site é composto por cinco páginas, organizadas para facilitar o acesso ao co
 ## Contexto Acadêmico
 
 Projeto desenvolvido como avaliação acadêmica, com foco na aplicação de conceitos de desenvolvimento web e organização de conteúdo digital.
-
-## Observações
-
-Para mais detalhes sobre o desenvolvimento do projeto, consulte a página de documentação disponível no próprio site.
