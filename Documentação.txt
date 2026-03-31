@@ -1,1 +1,7 @@
-O obejtivo do site é oferecer informações sobre as queimadas de forma clara e breve, com funções intuitivas, possuindo 5 páginas. Para algumas imagens, usei bancos de imagens como o Freepik, apesar de ter sido difiícil achar boas imagens gratuitas e que não foram criadas por IA. Tive dificuldades com o CSS, especialmente para montar o infográfico.
+O objetivo do site é apresentar informações sobre queimadas de forma clara e objetiva, com navegação intuitiva entre as páginas.
+
+O projeto é composto por cinco páginas, organizadas para facilitar o acesso ao conteúdo e melhorar a experiência do usuário.
+
+Para a composição visual, foram utilizadas imagens de bancos gratuitos, como o Freepik.
+
+Durante o desenvolvimento, houve desafios na construção do layout em CSS, especialmente na elaboração do infográfico, contribuindo para o aprimoramento das habilidades em estilização.
